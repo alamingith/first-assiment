@@ -5,7 +5,9 @@
   font-style: normal;
 }
 /* shared style */
-
+.text-primary-color{
+  color:#252432;
+}
 .btn-primary{
   background-color:#4E47FF;
   color:#ffffff;
@@ -22,11 +24,14 @@
   background-color: rgb(146, 139, 247);
   color:black;
 }
+.main-margin{
+  margin:152px 159px 141px;
+}
 
 /* nav styles */
 .header{
   background-image:url("../images/Hero-bg.png");
-  max-width:1440px;
+  width:100%;
   height:600px;
 }
 
@@ -53,6 +58,30 @@ nav{
   font-size: 50px;
 }
 
-.btn-primary:hover{
-  
+/* Main section */
+.action{
+
+  display:flex;
+  justify-content: space-between;
+  gap:200px;
+}
+.action-title{
+  margin-top:-10px;
+}
+.child-action{
+  margin-top:62.5px ;
+  margin-bottom:62.5px;
+}
+.child-action .action-title{
+  font-weight: bold;
+  font-size:42px;
+  color:#252432;
+}
+.action-description{
+  font-size:24px;
+  margin-top:-15px;
+}
+.action-img{
+  border-radius: 48px;
+
 }
