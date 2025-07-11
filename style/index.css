@@ -1,4 +1,6 @@
-
+body{
+  background-color:#F5F8FF;
+}
 .roboto-mono-normal {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
@@ -26,6 +28,11 @@
 }
 
 /* nav styles */
+header{
+  max-width: 1440px;
+  margin:0px auto;
+  box-sizing: border-box;
+}
 .header{
   background-image:url("../images/Hero-bg.png");
   width:100%;
@@ -41,7 +48,7 @@ nav{
   
 }
 .nav-title{
-  font-size:34px;
+  font-size:30px;
   
 }
 
@@ -52,14 +59,14 @@ nav{
 }
 .banner-title{
   font-weight: bold;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 /* Main section */
 
 main{
   max-width: 1140px;
-  min-width:500px;
+  
   margin:0 auto;
 
 }
@@ -123,37 +130,7 @@ main .action{
   margin-top: -20px;
 }
 
-/* main section touch box */
-.touch-box{
-  box-sizing: border-box;
-  border:1px solid red;
-  display:flex;
-  justify-content:space-between;
-  gap:115px;
-  padding:50px 0px; 
-  background-color:#F5F8FF;
-}
-.touch-box .touch{
-  font-weight: bold;
-  font-size:97px;
-  text-align:left;
-}
- .touch-box .touch2{
-  margin:71px 0px ;
-  border:1px solid red;
-}
-.box-items label{
-  display:block;
-  margin-bottom:52px;
-}
-.box-items input ,textarea{
-  box-sizing: border-box;
-  padding:20px 32px;
-  width:100%;
-  margin-bottom:40px;
-  border-radius: 10px;
-  border:none;
-}
+
 
 /* Feedback Section */
 
@@ -171,7 +148,7 @@ main .action{
   margin-bottom:50px;
 }
 .Feedback-Section{
-  
+  color:#ffff;
   display:flex;
   justify-content: space-between;
   gap:20px;
@@ -192,4 +169,38 @@ main .action{
 }
 .Feedback-Section .preant .image .p{
   text-align:center;
+}
+/* main section touch box */
+.king{
+  margin:71px 0px;
+}
+.touch-box{
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:100px;
+}
+.touch-box.touch{
+  font-weight: bold;
+  font-size:97px;
+}
+.touch-box .touch2{
+  margin:71px 0px 
+}
+.touch-box .touch2 .box-items{
+  
+}
+
+.box-items label , textarea{
+  display:block;
+  margin-bottom:10px;
+
+ 
+}
+.box-items input[type='email'] , input[type="name"]{
+  margin-bottom:20px;
+  padding:20px 32px;
+  border-radius: 10px;
+  width:67%;
 }
