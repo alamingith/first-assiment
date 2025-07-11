@@ -35,8 +35,7 @@ header{
 }
 .header{
   background-image:url("../images/Hero-bg.png");
-  width:100%;
-  height:600px;
+ /* margin:104px 455px 103px 154xp; */
 }
 
 nav{
@@ -55,11 +54,11 @@ nav{
 .banner{
   text-align:center;
   margin:158px 267.5px 152px;
-  
+  padding-bottom:152px;
 }
 .banner-title{
   font-weight: bold;
-  /* font-size: 50px; */
+  
 }
 
 /* Main section */
@@ -170,6 +169,9 @@ main .action{
 .Feedback-Section .preant .image .p{
   text-align:center;
 }
+.preant-feedback .preant .title{
+  color:black;
+}
 /* main section touch box */
 .king{
   margin:71px 0px;
@@ -181,26 +183,77 @@ main .action{
   align-items: center;
   gap:100px;
 }
-.touch-box.touch{
+.touch{
   font-weight: bold;
-  font-size:97px;
+  font-size:80px;
 }
 .touch-box .touch2{
   margin:71px 0px 
-}
-.touch-box .touch2 .box-items{
-  
 }
 
 .box-items label , textarea{
   display:block;
   margin-bottom:10px;
+  border-radius: 10px ;
+  border:none;
 
  
 }
 .box-items input[type='email'] , input[type="name"]{
   margin-bottom:20px;
-  padding:20px 32px;
+  padding:15px;
   border-radius: 10px;
-  width:67%;
+  width:92%;
+  border:none;
+}
+.button{
+  width:100%;
+  padding:15px;
+  border:none;
+}
+/* footer ------ */
+.footer-section{
+  max-width:1440px;
+  background-color:white;
+   margin-bottom:150px;
+  margin:0px auto;
+  padding:50px 0px;
+  
+}
+.footer-logo{
+  margin:105px 455px;
+  box-sizing: border-box;
+  text-align:center;
+}
+.footer-logo .footer-title{
+  color:#4E47FF;
+}
+.anchor-section {
+
+  padding-left:20px;
+  text-align:left;
+}
+.footer-logo ul{
+  display:flex;
+  justify-content: space-between;
+  text-align:left;
+  
+}
+.footer-logo ul li{
+  list-style:none;
+  padding:0px 10px;
+  transition:0.5s;
+  
+}
+
+.footer-logo ul li a{
+  text-decoration:none;
+  color:#252432 ;
+  text-align:center;
+  cursor:pointer;
+}
+.footer-logo ul li:hover{
+  background-color:#4E47FF;
+  border-radius:8px;
+  color:#ffff;
 }
