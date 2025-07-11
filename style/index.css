@@ -24,9 +24,6 @@
   background-color: rgb(146, 139, 247);
   color:black;
 }
-.main-margin{
-  margin:152px 159px 141px;
-}
 
 /* nav styles */
 .header{
@@ -59,10 +56,18 @@ nav{
 }
 
 /* Main section */
+
+main{
+  max-width: 1140px;
+  min-width:500px;
+  margin:0 auto;
+
+}
 main .action{
   display:flex;
   justify-content: space-between;
   gap:200px;
+  margin:116px 0px;
 }
 .action-title{
   margin-top:-10px;
@@ -131,8 +136,6 @@ main .action{
 .touch-box .touch{
   font-weight: bold;
   font-size:97px;
-  width:528px;
-  height:232px;
   text-align:left;
 }
  .touch-box .touch2{
@@ -150,4 +153,43 @@ main .action{
   margin-bottom:40px;
   border-radius: 10px;
   border:none;
+}
+
+/* Feedback Section */
+
+.preant-feedback{
+  
+  text-align:center;
+  margin-top:137px;
+  margin-bottom:137px;
+  box-sizing: border-box;
+}
+.preant-feedback h1{
+  font-weight: bold;
+  font-size:42px;
+  margin-top:0px;
+  margin-bottom:50px;
+}
+.Feedback-Section{
+  
+  display:flex;
+  justify-content: space-between;
+  gap:20px;
+}
+.Feedback-Section .preant{
+  text-align:left;
+  padding:24px;
+  border-radius:14px;
+  box-shadow: 0px 1px 10px rgb(173, 170, 170);
+}
+
+.preant .image{
+  text-align:left;
+  display:flex;
+  
+  align-items:center ;
+
+}
+.Feedback-Section .preant .image .p{
+  text-align:center;
 }
