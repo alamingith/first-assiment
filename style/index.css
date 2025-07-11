@@ -117,3 +117,37 @@ main .action{
   font-size:20px ;
   margin-top: -20px;
 }
+
+/* main section touch box */
+.touch-box{
+  box-sizing: border-box;
+  border:1px solid red;
+  display:flex;
+  justify-content:space-between;
+  gap:115px;
+  padding:50px 0px; 
+  background-color:#F5F8FF;
+}
+.touch-box .touch{
+  font-weight: bold;
+  font-size:97px;
+  width:528px;
+  height:232px;
+  text-align:left;
+}
+ .touch-box .touch2{
+  margin:71px 0px ;
+  border:1px solid red;
+}
+.box-items label{
+  display:block;
+  margin-bottom:52px;
+}
+.box-items input ,textarea{
+  box-sizing: border-box;
+  padding:20px 32px;
+  width:100%;
+  margin-bottom:40px;
+  border-radius: 10px;
+  border:none;
+}
